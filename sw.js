@@ -1,4 +1,4 @@
-const CACHE_NAME = 'churuchubu-fan-v2';
+const CACHE_NAME = 'churuchubu-fan-v3';
 const APP_SHELL = [
   '/',
   '/index.html',
