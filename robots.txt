@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# サイトマップ（本番ドメイン確定後に URL を設定してください）
+# Sitemap: https://your-domain.example.com/sitemap.xml
