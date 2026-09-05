@@ -1,11 +1,12 @@
-const CACHE_NAME = 'churuchubu-fan-v1';
+const CACHE_NAME = 'churuchubu-fan-v2';
 const APP_SHELL = [
   '/',
   '/index.html',
   '/favicon.svg',
   '/apple-touch-icon.png',
   '/pwa-192.png',
-  '/pwa-512.png'
+  '/pwa-512.png',
+  '/favorites-v1.js'
 ];
 
 self.addEventListener('install', (event) => {
