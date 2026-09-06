@@ -1,48 +1,19 @@
 <!DOCTYPE html>
-<html lang="ja">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
-
-    <!--
-      メタタグ（title / description / OGP / robots / canonical）は
-      react-helmet-async が各ページごとに動的に管理します。
-      src/data/config.ts の SEO_CONFIG を編集してください。
-
-      以下はJavaScript読み込み前のフォールバック用タイトルです。
-    -->
-    <title>ちゅ〜るちゅーぶ ファン運営サイト</title>
-
-    <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <link rel="manifest" href="/manifest.webmanifest" />
-    <meta name="theme-color" content="#f8a6c8" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-    <meta name="apple-mobile-web-app-title" content="ちゅ〜るファン" />
-
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <script type="module" crossorigin src="/assets/index-20260906-benefit.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-1ah60nyv.css">
-    <script src="/favorites-v1.js" defer></script>
-  </head>
-  <body>
-    <div id="root"></div>
-  <script>
-      if ('serviceWorker' in navigator) {
-        window.addEventListener('load', function () {
-          navigator.serviceWorker.register('/sw.js').catch(function (error) {
-            console.warn('PWA service worker registration failed:', error);
-          });
-        });
-      }
-    </script>
-  </body>
-</html>
+<html lang="ja"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<title>ちゅ〜るちゅーぶ ファン運営サイト</title>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<meta name="theme-color" content="#f8a6c8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="ちゅ〜るファン">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script type="module" crossorigin src="/assets/index-20260906-final.js"></script>
+<link rel="stylesheet" crossorigin href="/assets/index-1ah60nyv.css">
+<script src="/favorites-v1.js" defer></script></head>
+<body><div id="root"></div><script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(e){console.warn('PWA service worker registration failed:',e);});});}</script></body></html>
