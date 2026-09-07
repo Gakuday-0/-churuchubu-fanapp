@@ -16,4 +16,13 @@
 <script src="/assets/index-20260906-final.js?v=20260907" defer></script>
 <link rel="stylesheet" crossorigin href="/assets/index-1ah60nyv.css">
 <script src="/favorites-v1.js" defer></script></head>
-<body><div id="root"></div><script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(e){console.warn('PWA service worker registration failed:',e);});});}</script></body></html>
+<body><div id="root"></div>
+<script>
+window.addEventListener('error',function(e){
+  document.body.innerHTML='<pre style="white-space:pre-wrap;padding:20px;font-size:16px;color:red;background:white">JS ERROR\n'+(e.message||'unknown')+'\n\n'+(e.filename||'')+':'+(e.lineno||'')+'</pre>';
+});
+window.addEventListener('unhandledrejection',function(e){
+  document.body.innerHTML='<pre style="white-space:pre-wrap;padding:20px;font-size:16px;color:red;background:white">PROMISE ERROR\n'+(e.reason?.stack||e.reason||'unknown')+'</pre>';
+});
+</script>
+<script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(e){console.warn('PWA service worker registration failed:',e);});});}</script></body></html>
