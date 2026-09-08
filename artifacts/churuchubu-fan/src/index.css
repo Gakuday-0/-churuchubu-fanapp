@@ -1,0 +1,3 @@
+@import '@workspace/churuchubu-design-system/styles.css';
+@source "./";
+@import './app.css';

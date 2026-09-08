@@ -1,0 +1,7 @@
+- [Google Sheets CSV](google-sheets-csv.md) — 公開CSVの引用符内改行を保持してレコード分割する
+- [ロゴ画像の透過処理](logo-transparency.md) — PNGでもアルファなしRGB画像があるため、外周背景だけを弱い閾値で透過する
+- [Churuchubu配色方針](design-system-palette.md) — 白・黒・グレーを基調に、ピンクは重要な操作・状態だけへ限定する
+- [出演時間の特殊表記](schedule-format.md) — 「1部のみ」「2部だけ」は部見出しではなく出演時間の値として保持する
+- [特典変更告知](benefit-regulation-notice.md) — 変更告知の表示期間と公式Xリンクは特典データの設定値で管理する
+- [強化メンバーの扱い](strengthened-member.md) — 正式メンバー・公式カラー・終了日とは分け、確認済み情報だけを掲載する
+- [メンバー詳細の画像方針](member-profile-image-policy.md) — アー写・本人写真・公式画像を使わず文字とカラーアクセントで構成する
