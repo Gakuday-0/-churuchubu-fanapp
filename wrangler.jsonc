@@ -3,6 +3,7 @@
   "name": "churuchubu-fanapp",
   "compatibility_date": "2026-09-08",
   "assets": {
-    "directory": "./artifacts/churuchubu-fan/dist/public"
+    "directory": "./artifacts/churuchubu-fan/dist/public",
+    "not_found_handling": "single-page-application"
   }
 }
