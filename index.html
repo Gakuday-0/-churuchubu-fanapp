@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+
+    <!--
+      メタタグ（title / description / OGP / robots / canonical）は
+      react-helmet-async が各ページごとに動的に管理します。
+      src/data/config.ts の SEO_CONFIG を編集してください。
+
+      以下はJavaScript読み込み前のフォールバック用タイトルです。
+    -->
+    <title>ちゅ〜るちゅーぶ ファン運営サイト</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/assets/churuchubu-logo-DM0GCgYb.png" />
+    <link rel="apple-touch-icon" href="/assets/churuchubu-logo-DM0GCgYb.png" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" crossorigin src="/app.js"></script>
+    <link rel="stylesheet" crossorigin href="/style.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
